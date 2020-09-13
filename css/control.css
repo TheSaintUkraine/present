@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  overflow-x: hidden;
+  overflow-y: hidden;
+
+
+}
+button {
+  width: 100%;
+  font-size: 300%;
+  height: 50px;
+}
+.touch{
+  width: 9999px;
+  height: 9999px;
+  float: right;
+}

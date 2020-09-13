@@ -1,0 +1,65 @@
+body {
+  display:flex;
+  justify-content: center;
+
+}
+body,div {
+  overflow-x: hidden;
+  width: 100%;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+.logo {
+  font-family: 'Russo One', sans-serif;
+  text-align: center;
+  color: blue;
+  font-size: 330%;
+}
+.cont {
+  margin-top: 100px;
+  width: 1000px;
+}
+input {
+  margin-top: 30px;
+  margin-left: 40%;
+  width:200px;
+  height: 33px;
+  border-radius: 10px;
+  border: 1px solid black;
+  font-size: 30px;
+}
+.cont-button {
+  margin-top: 50px;
+ display: flex;
+ justify-content: center;
+}
+.ok-button {
+  font-size: 25px;
+  width:60px;
+  height: 40px;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+h2 {
+  font-family: 'Roboto Condensed', sans-serif;
+  text-align: center;
+  margin-top: 30px;
+}
+.control-h {
+  margin-top: 0;
+}
+.control {
+  margin-top: 50px;
+}
+@media all and (max-width:480px) {
+  .cont {
+    width: 100%;
+  }
+  .logo {
+    font-size: 230%;
+  }
+  input {
+    margin-left: 30%;
+  }
+}
